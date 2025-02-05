@@ -1,0 +1,18 @@
+def greet_user(name):
+    return f"Hello, {name}! Welcome to GitHub."
+
+def add_numbers(a, b):
+    return a + b
+
+def main():
+    name = input("Enter your name: ")
+    print(greet_user(name))
+
+    print("Let's add two numbers.")
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+    result = add_numbers(num1, num2)
+    print(f"The sum of {num1} and {num2} is {result}.")
+
+if __name__ == "__main__":
+    main()
